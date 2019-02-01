@@ -1,18 +1,22 @@
 header{
     width: 100%;
     background-color: black;
+    color: white;
 }
 .main_width{
     width: 1064px;
-    height: 40px;
     border: 1px solid red;
     margin: 0 auto;
+
+}
+header .main_width{
+    height: 40px;
 }
 .display_style{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+
 }
 
 .menu_item{
@@ -50,6 +54,33 @@ header{
     left: calc(50% - 12px);
     top: 10px;
 }
-.main_width span{
-    color: green;
+span{
+    color: #24ba9f;
+}
+
+/*SECTION 1*/
+section{
+    background: linear-gradient(to bottom, rgba(254,254,254,1) 0%, rgba(235,235,235,1) 41%, rgba(226,226,226,1) 60%, rgba(209,209,209,1) 100%);
+}
+.section_one:before{
+    content: "<";
+    display: block;
+    color: #24ba9f;
+}
+.section_one:after{
+    content: '>';
+    display: block;
+    color: #24ba9f;
+}
+button{
+    color: white;
+    background-color: #24ba9f;
+    border-radius: 5px;
+    padding:5px 15px;
+}
+.section_one h1{
+    font-size: 20px;
+}
+section .main_width{
+    height: 500px;
 }
