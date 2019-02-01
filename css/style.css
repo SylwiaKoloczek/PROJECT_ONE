@@ -23,7 +23,12 @@ header{
     position: absolute;
     color: blue;
     left: 24px;
-    margin-top: 24px;
+    padding-top: 24px;
+    display: none;
+}
+
+.display_list:hover>.menu_item_element{
+    display: block;
 }
 .menu_item_inside_element{
     padding-left: 20px;
@@ -41,9 +46,9 @@ header{
     height: 0;
     border-left: 12px solid transparent;
     border-right: 12px solid transparent;
-    border-bottom: 12px solid black;
+    border-bottom: 14px solid black;
     left: calc(50% - 12px);
-    top: -12px;
+    top: 10px;
 }
 .main_width span{
     color: green;
